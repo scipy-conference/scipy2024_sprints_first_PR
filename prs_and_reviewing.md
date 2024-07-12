@@ -60,6 +60,7 @@ You can use HTTPS:
 
 GitHub has turned off password authentication, so you will need to set up token access for HTTPS.
 Follow these [instructions](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token#creating-a-personal-access-token-classic) to generate a token, and then use it in place of your password.
+When generating the token, just grant it the `repo` scope.
 
 You can also authenticate with ssh (follow the [instructions](https://docs.github.com/en/authentication/connecting-to-github-with-ssh) ).
 If you use GitHub a lot, enabling 2-factor authentication and ssh is a good idea (it also means
@@ -185,7 +186,9 @@ an idea of roughly what each commit does.
 
 You can now check that your commit is in the history using:
 
-    git log
+    git log -n 5
+
+Type `d` to keep scrolling through the output, and `q` to quit.
 
 If the commit is there, you are now ready to push your changes to GitHub! You can do this using:
 
