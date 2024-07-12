@@ -14,7 +14,7 @@ whether it is the addition of new code, fixing bugs or contributing to the docum
 
 For actual projects, please always consult their own contributing guides as some of the specific steps may differ from this very generic tutorial.
 
-For further read about some open-source contributing workflows see any of the following for astropy, scikit-learn, or numpy:
-* [walked through example of a bug fix PR in astropy](https://docs.astropy.org/en/latest/development/workflow/git_edit_workflow_examples.html#astropy-fix-example),
-* [crash course in contributing to open source](https://sites.google.com/view/nyc-2020-scikit-sprint) material presented at a scikit-learn sprint
-* [contributing to NumPy](https://numpy.org/contribute/) with [guides for code contributions](https://numpy.org/devdocs/dev/index.html#development-process-summary).
+For further read about some open-source contributing workflows see any of the following for scikit-learn, numpy, or a generic overview at Scientific Python:
+* [crash course in contributing to open source](https://sites.google.com/view/nyc-2020-scikit-sprint) material presented at a scikit-learn sprint,
+* [contributing to NumPy](https://numpy.org/contribute/) with [guides for code contributions](https://numpy.org/devdocs/dev/index.html#development-process-summary),
+* [Developer and Contributor Guides as Scientific Python](https://learn.scientific-python.org/))
