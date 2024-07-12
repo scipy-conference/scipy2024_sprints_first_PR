@@ -72,10 +72,12 @@ Once the repository has been cloned, ``cd`` into it and check what files are ava
     cd scipy2024_sprints_first_PR
     ls
 
-Under ``participants`` you should see a set of directories, with one directory per participant. There are also issues opened for each directory name,
-please comment on the issue to claim a directory, so others will know to work in another one to avoid conflicts. Go into the directory with your user name, e.g.:
+Under ``participants`` you should see a set of directories, with one directory per participant. Please comment on the conference Slack channel, 
+#bof-scipy-2024-sprint-prep-bof, to claim a directory to let others know to work in another one to avoid conflicts. 
 
-    cd participants/scipy23_000
+Go into the directory with your user name, e.g.:
+
+    cd participants/scipy_000
 
 You should now see the following files:
 
