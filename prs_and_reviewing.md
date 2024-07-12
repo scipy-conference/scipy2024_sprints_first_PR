@@ -22,10 +22,9 @@ but note that the workflow will be similar for other platforms such as GitLab an
 ### Workflow guidelines
 
 For further read about open source contributing workflows see any of the following:
-* [walked through example of a bug fix PR in astropy](https://docs.astropy.org/en/latest/development/workflow/git_edit_workflow_examples.html#astropy-fix-example),
-* [crash course in contributing to open source](https://sites.google.com/view/nyc-2020-scikit-sprint) material presented at a scikit-learn sprint
-* [contributing to NumPy](https://numpy.org/contribute/) with [guides for code contributions](https://numpy.org/devdocs/dev/index.html#development-process-summary).
-
+* [crash course in contributing to open source](https://sites.google.com/view/nyc-2020-scikit-sprint) material presented at a scikit-learn sprint,
+* [contributing to NumPy](https://numpy.org/contribute/) with [guides for code contributions](https://numpy.org/devdocs/dev/index.html#development-process-summary),
+* [Developer and Contributor Guides as Scientific Python](https://learn.scientific-python.org/)).
 
 
 
@@ -34,7 +33,7 @@ For further read about open source contributing workflows see any of the followi
 
 ### 1a: Fork the repository
 
-The repository we will be opening pull requests to is at https://github.com/bsipocz/scipy2023_sprints_first_PR .
+The repository we will be opening pull requests to is at https://github.com/scipy-conference/scipy2024_sprints_first_PR .
 Since you don't have write access to this repository, the first step will be to make a "fork" of the repository.
 This is basically a copy of the main repository, but one that you have complete control to modify as you see fit
 (and that is visible to everyone else on GitHub).  Make sure you are logged in to GitHub, then go to the
@@ -136,7 +135,7 @@ Once you've done at least one of these, you can move to the next step!
 ```
 ================================================= test session starts ==================================================
 platform darwin -- Python 3.11.0, pytest-7.2.1, pluggy-1.0.0
-rootdir: /Users/bsipocz/munka/devel/scipy2023/scipy2023_sprints_first_PR/participants/scipy_000
+rootdir: /Users/bsipocz/munka/devel/scipy2024/scipy2024_sprints_first_PR/participants/scipy_000
 plugins: remotedata-0.4.0, rerunfailures-10.3, nbval-0.10.0, doctestplus-0.13.0, hypothesis-6.58.1, mock-3.10.0, dependency-0.5.1, filter-subpackage-0.1.2, requests-mock-1.10.0, astropy-header-0.2.2, astropy-0.10.0, cov-4.0.0, openfiles-0.5.0, anyio-3.6.2, arraydiff-0.5.0
 collected 1 item
 
@@ -187,7 +186,7 @@ ask your friendly instructors!
 
 ### 1h: Open a pull request
 
-At this point, go to your fork on GitHub at ``https://github.com/<username>/scipy2023_sprints_first_PR``, and
+At this point, go to your fork on GitHub at ``https://github.com/<username>/scipy2024_sprints_first_PR``, and
 you should see a yellow-ish banner that looks like this:
 
 ![](images/pushed.png)
