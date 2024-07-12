@@ -22,10 +22,16 @@ but note that the workflow will be similar for other platforms such as GitLab an
 ### Workflow guidelines
 
 For further read about open source contributing workflows see any of the following:
+
 * [crash course in contributing to open source](https://sites.google.com/view/nyc-2020-scikit-sprint) material presented at a scikit-learn sprint,
 * [contributing to NumPy](https://numpy.org/contribute/) with [guides for code contributions](https://numpy.org/devdocs/dev/index.html#development-process-summary),
+* [contributing to Pandas](https://pandas.pydata.org/docs/dev/development/contributing.html),
 * [Developer and Contributor Guides as Scientific Python](https://learn.scientific-python.org/)).
 
+#### Writing good bug reports, reproducible examples, etc.
+
+* ["How to create a Minimal, Reproducible Example" (Stack Overflow docs)](https://stackoverflow.com/help/minimal-reproducible-example)
+* ["Why should I not upload images of code/data/errors?" (Meta Stack Overflow)](https://meta.stackoverflow.com/questions/285551/why-should-i-not-upload-images-of-code-data-errors)
 
 
 ## Problem 1: Making some changes and opening a pull request
@@ -75,17 +81,19 @@ Once the repository has been cloned, ``cd`` into it and check what files are ava
 Under ``participants`` you should see a set of directories, with one directory per participant. Please comment on the conference Slack channel, 
 #bof-scipy-2024-sprint-prep-bof, to claim a directory to let others know to work in another one to avoid conflicts. 
 
-Go into the directory with your user name, e.g.:
-
     cd participants/scipy_000
 
 You should now see the following files:
 
-* ``README.md``: basic documentation for some of the code
+* ``doc/README.md``: basic documentation for some of the code
 
-* ``simple_functions.py``: a set of simple functions that should work properly
+* ``pr_tutorial/simple_functions.py``: a set of simple functions that should work properly
 
-* ``buggy_function.py``: a function that contains one or more bugs
+* ``pr_tutorial/buggy_function.py``: a function that contains one or more bugs
+
+* ``pr_tutorial/tests/``: tests intended to confirm the functions are working as expected
+
+* ``setup.py``: configuration to package those functions as a Python library
 
 Take a look at these files, and familiarize yourself with the contents.
 
