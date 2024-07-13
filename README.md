@@ -7,7 +7,6 @@
 
 
 
-
 This tutorial focuses on the essential aspect of contributing to open-source, the GitHub pull request workflow.
 Many projects follow similar setups we cover, and expects contributions to their repositories in the form of pull requests,
 whether it is the addition of new code, fixing bugs or contributing to the documentation.
