@@ -12,17 +12,9 @@ def factorial(value):
         return value * factorial(value - 1)
 
 def is_prime(number):
-    # This may have been stolen from stack overflow
-    is_prime = True
-
-    for i in range(2, int(user_input)):
-        if int(user_input) % i == 0 :
-            is_prime = False
-            break #break out of the for loop since the number isn't prime
-
-    if is_prime:
-        print("Your number is prime")
+    # I've learned my lesson and will no longer steal from stackoverflow.
+    # Now I am stealing from TruDarkSider
+    if value %2 == 0 or value == 0:
+        return False
     else:
-        print("your number is not prime")
-	
-
+        return True  
