@@ -1,5 +1,4 @@
-Ok so I guess you are reading this cuz you wanna use my code. There are some
-functions that do stuf and thats:
+Here is the usage of ``simple_functions``:
 
     >>> from simple_functions import factorial
     >>> factorial(10)
