@@ -12,7 +12,7 @@ def factorial(value):
         return value * factorial(value - 1)
 
 def is_prime(number):
-    # I've learned my lesson and will no longer steal from stackoverflow.
+    ## I've learned my lesson and will no longer steal from stackoverflow.
     # Now I am stealing from TruDarkSider
     if value %2 == 0 or value == 0:
         return False
