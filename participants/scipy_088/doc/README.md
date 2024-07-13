@@ -1,13 +1,17 @@
-Ok so I guess you are reading this cuz you wanna use my code. There are some
-functions that do stuf and thats:
+# Fun With Functions
 
-    >>> from simple_functions import factorial
-    >>> factorial(10)
-    9
+This repository contains functions for computing Fibonacci numbers, computing factorials, and converting degrees to sexigesimal strings.
 
-and this other part does something.  I forget why that I did it:
+```py
+>>> from pr_tutorial.simple_functions import fibonacci
+>>> fibonacci(9)
+[0, 1, 1, 2, 3, 5, 8]
+>>> from pr_tutorial.simple_functions import factorial
+>>> factorial(10)
+3628800
+>>> from pr_tutorial.buggy_function import angle_to_sexigesimal
+>>> angle_to_sexigesimal(123.45)
+'8:13:48.000'
+```
 
-    >>> fibonnaccci(100)
-    [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
-
-If you can't use it, its kind of your problem, not mine!
+If you find a problem, please [submit an issue!](https://github.com/scipy-conference/scipy2024_sprints_first_PR/issues/new)
