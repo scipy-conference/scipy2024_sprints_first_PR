@@ -79,8 +79,8 @@ Once the repository has been cloned, ``cd`` into it and check what files are ava
     cd scipy2024_sprints_first_PR
     ls
 
-Under ``participants`` you should see a set of directories, with one directory per participant. Please comment on the conference Slack channel, 
-#bof-scipy-2024-sprint-prep-bof, to claim a directory to let others know to work in another one to avoid conflicts. 
+Under ``participants`` you should see a set of directories, with one directory per participant. Please comment on the conference Slack channel,
+#bof-scipy-2024-sprint-prep-bof, to claim a directory to let others know to work in another one to avoid conflicts.
 
     cd participants/scipy_000
 
@@ -269,7 +269,7 @@ If you are opening a pull request on a busy repository such as the core astropy 
 may make improvements to the code after you have opened it, and you may need to rely on their changes.
 If this happens, you can use ``git remote`` to add the main repository as a source you can get changes from:
 
-    git remote add bsipocz https://github.com/bsipocz/scipy2024_sprints_first_PR
+    git remote add scipy-conference https://github.com/scipy-conference/scipy2024_sprints_first_PR
 
 You only need to do this once for a given local repository.
 
